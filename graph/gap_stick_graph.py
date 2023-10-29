@@ -2,7 +2,7 @@ import csv
 
 import matplotlib.pyplot as plt
 
-f = open("nba_play_minute.csv")
+f = open("../nba_play_minute.csv")
 data = csv.reader(f)
 
 basket_ball_position = ["point_guard", "shooting_guard", "small_forward", "power_forward", "center"]
